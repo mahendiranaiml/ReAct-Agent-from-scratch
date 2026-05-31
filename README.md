@@ -72,7 +72,7 @@ react_agent/
 │   └── tools/
 │       ├── calculator.py
 │       ├── weather.py
-│       └── registry.py
+│      
 │
 ├── .env
 ├── main.py
@@ -105,11 +105,6 @@ Supports:
 - Multiplication
 - Division
 
-### Weather Tool
-
-Simple weather lookup tool used for testing tool selection and routing.
-
----
 
 ## 🔄 ReAct Loop Example
 
@@ -271,17 +266,6 @@ Through this project I learned:
 - JSON parsing and validation
 - Hallucination mitigation techniques
 - Separation of reasoning and execution
-
----
-
-## 🔮 Possible Future Improvements
-
-- Memory system
-- Planner + Executor architecture
-- Tool schemas and validation
-- Execution trace storage
-- Retry mechanism for invalid outputs
-- Additional tools (search, web, database)
 
 ---
 
